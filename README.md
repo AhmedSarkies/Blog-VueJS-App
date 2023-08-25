@@ -1,11 +1,20 @@
-# simple-blog
+# Simple Blog App
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### To run this blog you should install the json server
+```
+npm install -g json-server
+```
+### Then you will be able to run the Database and using the local API
+```
+json-server --watch src/db/db.json
+```
+
+### Then you can be able to run the project
 ```
 npm run serve
 ```
